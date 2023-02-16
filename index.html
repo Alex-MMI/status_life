@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/Papirus-Team-Papirus-Apps-Emerald-theme-manager-icon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Статус жизни</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="counter">
+        <div class="counter__title"><h1>Проверка вашего уровня жизни</h1></div>
+
+        <div class="counter__salary counter-text" id="your_salary"></div>
+        <div class="counter__expenses counter-text" id="your_expenses"></div>
+        <div class="counter__expenses__list counter-text" id="your_list"></div>
+        <div class="counter__sum_expenses counter-text" id="sum_expenses"></div>
+        <div class="counter__budget counter-text" id="your_budget"></div>
+        <div class="counter__status counter-text" id="status"></div>
+        <div class="btn">
+          <button onclick="start ()">Произвести расчет</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

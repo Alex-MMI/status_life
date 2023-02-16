@@ -1,0 +1,36 @@
+.container {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.counter {
+  margin: auto;
+  background-color: #aee300b3;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+
+.btn {
+  padding: 5px 0;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.counter-text {
+  margin: 5px 10px;
+  background-color: #e6e6fa93;
+  border-radius: 5px;
+}
+
+#status {
+  background-color: #ff0000cf;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  padding: 5px 0;
+  text-align: center;
+}
